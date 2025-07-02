@@ -1,4 +1,5 @@
 #!/bin/bash
-sudo apt update apache2 -y
-sudo apt install apache2 -y
-rm /var/www/html/index.html
+sudo yum update -y
+sudo yum install ruby -y
+sudo yum install wget -y
+cd /var/www/html/index.html
