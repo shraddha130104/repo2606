@@ -1,5 +1,5 @@
 #!/bin/bash
+sudo su
 sudo yum update -y
-sudo yum install ruby -y
-sudo yum install wget -y
-cd/var/www/html
+sudo yum install httpd -y
+service httpd status
